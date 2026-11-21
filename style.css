@@ -149,3 +149,39 @@ main {
     }
 }
 
+/* Mobile Responsive Fix */
+@media screen and (max-width: 480px) {
+
+    body {
+        padding: 12px;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .stats {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .habit-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .stat-card,
+    .habit-card {
+        width: 100%;
+        padding: 18px;
+    }
+
+    .stat-card p {
+        font-size: 24px;
+    }
+
+    .welcome h2 {
+        font-size: 21px;
+    }
+}
+
